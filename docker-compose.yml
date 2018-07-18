@@ -1,0 +1,6 @@
+rocker:
+  build: ./rocker
+  ports:
+    - "8787:8787"
+  volumes:
+    - ./work:/home/rstudio/work
